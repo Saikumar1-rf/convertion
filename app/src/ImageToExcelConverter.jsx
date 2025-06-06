@@ -291,14 +291,14 @@ const exportToExcel = () => {
           {isProcessing ? 'Processing...' : 'Extract Text'}
         </button>
 
-        <button
+        {/* <button
           onClick={exportToExcel}
           disabled={!text}
           className={`px-4 py-2 rounded-md text-white font-medium 
             ${!text ? 'bg-green-300 cursor-not-allowed' : 'bg-green-600 hover:bg-green-700'}`}
         >
           Export to Excel
-        </button>
+        </button> */}
       </div>
     </div>
     
